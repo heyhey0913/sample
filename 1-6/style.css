@@ -4,15 +4,31 @@
     box-sizing: border-box;
 }
 
-header {
-	width: 10%;
+.back1 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box1.jpg);
+	background-size: cover;
+	background-position: center;
 }
-.headline{
-	font-size: 22px;
+.back2 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box2.jpg);
+	background-size: cover;
+	background-position: center;
 }
-.nav{
-	text-align: center;
+.back3 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box3.jpg);
+	background-size: cover;
+	background-position: center;
 }
-.list{
-	padding-left: 40px;
+.back4 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box4.jpg);
+	background-size: cover;
+	background-position: center;
 }
