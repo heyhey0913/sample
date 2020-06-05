@@ -8,31 +8,35 @@
     display: block;
     clear: both;
 }
-header {
-	width: 100%;
-	height: 400px;
-	background-image: url(img/mv.jpg);
-	background-size: cover;
-	background-position: bottom;
+.box1 {
+	width: 960px;
+	margin: 50px auto;
+	line-height: 50px;
+
 }
-.text-box {
-	padding: 20px;
+p {
+	padding-left: 20px;
 }
-h1 {
-	color: darkgray;
+p:nth-child(odd) {
+	background-color: #eeeeee;
 }
-main {
-	width: 840px;
-	padding: 50px 0 50px 0;
-	margin: 0 auto;
+.box2 {
+	margin: 50px 0;
 }
-.blog-box {
-	padding: 30px 0 30px 0;
-	border-bottom: 1px solid lightgray;
+.box2-2 {
+	width: 30%;
+	height: 200px;
+	float: left;
+	background-color: yellow;
 }
-img{
-	margin-bottom: 10px;
+.box2-2:nth-child(-n+6){
+	margin-bottom: 40px;
 }
-h4 {
-	color: gray;
+.box2-2:nth-child(3n+1),
+.box2-2:nth-child(3n+2)
+{
+	margin-right: 5%;
+}
+.box2-2:nth-child(4n+1){
+	background-color: orange;
 }
