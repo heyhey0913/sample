@@ -10,36 +10,29 @@
 }
 .box1 {
 	width: 960px;
-	margin: 50px auto;
-	line-height: 50px;
-
+	margin: 50px 1px;
 }
-p {
-	padding-left: 20px;
+.contents{
+	float: left;
+	width: 300px;
+	border: 1px solid #f0f0f0;
+	margin-right: 30px;
 }
-p:nth-child(odd) {
-	background-color: #eeeeee;
+.contents:last-child{
+  margin-right: 0;
+}
+span {
+	position: absolute;
+	background-color: orange;
+	color: white;
+	padding: 3px;
 }
 .box2 {
-	margin-top: 50px;
+	padding: 10px;
 }
-.box2-2 {
-	width: 30%;
-	height: 200px;
-	float: left;
-	background-color: yellow;
+img {
+	width: 280px;
 }
-.box2-2:nth-child(-n+6){
-	margin-bottom: 40px;
-}
-.box2-2:nth-child(n+7){
-	margin-bottom: 50px;
-}
-.box2-2:nth-child(3n+1),
-.box2-2:nth-child(3n+2)
-{
-	margin-right: 5%;
-}
-.box2-2:nth-child(4n+1){
-	background-color: orange;
+h3 {
+	padding: 10px 0;
 }
